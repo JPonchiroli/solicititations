@@ -18,6 +18,18 @@ h1 {
     @apply text-2xl font-semibold text-gray-800
 }
 
-a {
+a, span {
     @apply text-gray-600
+}
+
+input, select {
+    @apply text-sm text-gray-800 border-gray-300 border-1 focus:ring-2 focus:ring-blue-500 rounded w-full p-2 mb-5
+}
+
+button {
+    @apply border-1 p-2 mb-5 w-full
+}
+
+.container {
+    @apply flex justify-center items-center flex-col mx-auto
 }

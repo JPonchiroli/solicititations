@@ -13,9 +13,9 @@
     </head>
     <body class="bg-gray-100">
       <header class="flex justify-center w-screen ">
-        <nav class="m-8 border-solid border-blue-900 border-1 rounded p-3">
-            <a href="#">Home > Clients</a>
-            <a class="hover:!text-blue-600" href="{{ route('registerClient') }}"> > Registration</a>
+        <nav class="m-8 border-solid border-gray-600 border-1 rounded-xl p-3">
+            <span> Home > <a href="{{ route('welcome') }}" class="hover:!text-blue-600"> Clients</a></span>
+            <span> > <a class="hover:!text-blue-600" href="{{ route('registerClient') }}">  Registration</a></span>
         </nav>
       </header>
 
