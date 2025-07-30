@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="mb-5">Register</h1>
 
-    <form action="" class="border-1 border-gray-600 rounded-xl p-5 w-2xs">
+    <form action="" class="border-1 border-gray-600 rounded-xl p-5 w-4/5">
       <ul>
         <li>
           <input type="text" placeholder="Full name">
@@ -32,14 +32,16 @@
         </li>
 
         <li class="flex justify-center">
-          <button type="submit" class="!w-1/2">Save</button>
+          <button type="submit" class="!w-1/2 bg-blue-400 text-white">Save</button>
         </li>
       </ul>
     </form>
 
-    <a href="{{ route('welcome')}}">
-      <button>Cancel</button>
-    </a>
+    <div class="w-1/8 mt-5">
+      <a href="{{ route('welcome')}}">
+        <button>Cancel</button>
+      </a>
+    </div>
   </div>
 
 </x-layout>

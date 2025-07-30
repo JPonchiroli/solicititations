@@ -14,6 +14,10 @@
     @apply font-sans
 }
 
+body {
+    @apply bg-gray-100
+}
+
 h1 {
     @apply text-2xl font-semibold text-gray-800
 }
@@ -27,9 +31,13 @@ input, select {
 }
 
 button {
-    @apply border-1 p-2 mb-5 w-full
+    @apply border-1 p-2 mb-5 w-full rounded-xl
+}
+
+button:hover {
+    @apply cursor-pointer
 }
 
 .container {
-    @apply flex justify-center items-center flex-col mx-auto
+    @apply flex flex-col max-w-4xl mx-auto
 }

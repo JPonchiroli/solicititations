@@ -11,7 +11,7 @@
 
          @vite('resources/css/app.css')
     </head>
-    <body class="bg-gray-100">
+    <body>
         <header class="flex justify-center w-screen ">
             <nav class="m-8 border-solid border-blue-900 border-1 rounded-xl p-3">
                 <span> Home > <a href="{{ route('welcome') }}" class="hover:!text-blue-600"> Clients</a></span>
