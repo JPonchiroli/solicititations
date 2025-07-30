@@ -5,23 +5,23 @@
     <form action="" class="border-1 border-gray-600 rounded-xl p-5 w-4/5">
       <ul>
         <li>
-          <input type="text" placeholder="Full name">
+          <input type="text" placeholder="Full name" required="true">
         </li>
 
         <li>
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" required="true">
         </li>
 
         <li>
-          <input type="phone" placeholder="Phone">
+          <input type="phone" placeholder="Phone" required="true">
         </li>
 
         <li>
-          <input type="text" placeholder="CPF/CNPJ">
+          <input type="text" placeholder="CPF/CNPJ" required="true">
         </li>
 
         <li>
-          <input type="date">
+          <input type="date" required="true">
         </li>
 
         <li>
